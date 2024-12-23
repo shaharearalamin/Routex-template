@@ -1,0 +1,58 @@
+@use "../important-scss" as *;
+
+nav {
+  & ul {
+    & li {
+      list-style: none;
+      display: inline-block;
+      margin: auto 10px;
+      position: relative;
+      & > a {
+        display: inline-block;
+        padding: 47px 0px;
+        font-weight: 700;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: var(--rt-heading-color);
+        & i {
+          font-size: 12px;
+          margin-left: 4px;
+          transition: 0.3s;
+        }
+      }
+      &:hover {
+        & .rt-sub-menu {
+          opacity: 1;
+          visibility: visible;
+        }
+        & i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+.rt-sub-menu {
+  width: 200px;
+  background-color: #d2d2d2;
+  color: #fff;
+  position: absolute;
+  padding: 0px;
+  top: 100%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  & li {
+    display: block;
+    margin: 10px;
+    & a {
+      display: block;
+      padding: inherit;
+      font-weight: 700;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: var(--rt-heading-color);
+    }
+  }
+}

@@ -1,0 +1,55 @@
+@use '../utils' as *;
+
+
+.w-img{
+	& img{
+		width: 100%;
+	}
+}
+.m-img{
+	& img{
+		max-width: 100%;
+	}
+}
+
+.ovh {
+    overflow:hidden
+}
+.clear{
+    clear: both;
+}
+
+
+.overflow-y-visible{
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+.overflow-x-visible{
+	overflow-x: visible;
+	overflow-y: hidden;
+}
+
+.p-relative{
+	position: relative;
+}
+.p-absolute{
+	position: absolute;
+}
+
+/*-- Position Absolute -- my customize*/
+@for $i from 0 through 0 {
+    .tp-#{0 * $i}{top: 0px *$i;}
+}
+@for $i from 0 through 0 {
+    .lf-#{0 * $i}{left: 0px *$i;}
+}
+@for $i from 0 through 0 {
+    .rt-#{0 * $i}{right: 0px *$i;}
+}
+@for $i from 0 through 0 {
+    .bt-#{0 * $i}{bottom: 0px *$i;}
+}
+/*-- z-index --*/ 
+@for $i from 1 through 50 {
+    .zi-#{1 * $i}{z-index: 1 *$i;}
+}
