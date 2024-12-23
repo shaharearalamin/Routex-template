@@ -138,20 +138,6 @@
   --rt-primary-font: "Plus Jakarta Sans", serif;
 }
 
-.rt-header-btn {
-  background-color: var(--rt-secondary-color);
-  color: var(--rt-common-white);
-  border-radius: 50px;
-  padding: 13px 30px;
-  font-weight: 600;
-  font-size: 14px;
-  text-align: center;
-  text-wrap: nowrap;
-}
-.rt-header-btn i {
-  padding: 10px;
-}
-
 .rt-btn {
   background-color: var(--rt-secondary-color);
   color: var(--rt-common-white);
@@ -160,6 +146,9 @@
   font-weight: 600;
   font-size: 14px;
   text-align: center;
+}
+.rt-btn i {
+  padding: 10px;
 }
 .rt-btn-transparent {
   background-color: transparent;
