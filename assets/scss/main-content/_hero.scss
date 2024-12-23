@@ -1,0 +1,51 @@
+.rt-hero {
+  &-text {
+    & h1 {
+      color: var(--rt-common-white);
+      font-size: clamp(53px, 4vw, 80px);
+    }
+  }
+  &-play-btn {
+    & span {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      display: inline-flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+    }
+    & b {
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-left: 10px;
+    }
+  }
+  &-img {
+    &-shape {
+      &-1 {
+        left: -60px;
+        bottom: 0;
+      }
+      &-2 {
+        right: -60px;
+        bottom: 0;
+      }
+      &-3 {
+        left: -50px;
+        bottom: 0;
+      }
+    }
+    &-circle {
+      width: 100%;
+      aspect-ratio: 4/4;
+      border-radius: 50%;
+      background: var(--rt-secondary-color);
+      position: absolute;
+      left: 0;
+      bottom: -220px;
+    }
+  }
+}

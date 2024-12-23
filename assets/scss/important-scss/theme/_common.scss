@@ -12,14 +12,23 @@
 	}
 }
 
-.ovh {
+.ovh{
     overflow:hidden
 }
 .clear{
     clear: both;
 }
 
+.br-50{
+	border-radius: 50px;
+}
 
+
+.img-max-width{
+    & img{
+        max-width: 100%;
+    }
+}
 .overflow-y-visible{
 	overflow-x: hidden;
 	overflow-y: visible;
