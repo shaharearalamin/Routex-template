@@ -195,7 +195,7 @@ h6 {
   color: var(--rt-heading-color);
   margin-top: 0px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 h1 {
@@ -354,6 +354,14 @@ textarea {
 
 .br-20 {
   border-radius: 20px;
+}
+
+.bg-primary-color {
+  background-color: var(--rt-primary-color);
+}
+
+.bg-secondary-color {
+  background-color: var(--rt-secondary-color);
 }
 
 .img-max-width img {
@@ -7918,6 +7926,58 @@ nav ul li:hover i {
   display: block;
   display: grid;
   place-items: center;
+}
+
+.rt-meets-img-1 {
+  position: relative;
+}
+.rt-meets-img-1::after {
+  content: "";
+  width: 89%;
+  height: 97%;
+  background-color: transparent;
+  border: 1px solid var(--rt-secondary-color);
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  border-radius: 20px;
+}
+.rt-meets-text-box {
+  padding-left: 43px;
+  padding-top: 34px;
+  padding-bottom: 20px;
+}
+.rt-meets-text-top h5 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.rt-meets-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--rt-secondary-color);
+  display: block;
+  display: grid;
+  place-items: center;
+}
+.rt-meets-icon span img {
+  width: 100%;
+  object-fit: contain;
+}
+.rt-meets-text-card-content h4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+.rt-meets-card-text-info p {
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.rt-section-title h1 span {
+  color: #16171a;
 }
 
 /*# sourceMappingURL=style.css.map */

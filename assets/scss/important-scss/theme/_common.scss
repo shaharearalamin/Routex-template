@@ -26,6 +26,12 @@
 	border-radius: 20px;
 }
 
+.bg-primary-color{
+	background-color: var(--rt-primary-color);
+}
+.bg-secondary-color{
+	background-color: var(--rt-secondary-color);
+}
 
 .img-max-width{
     & img{

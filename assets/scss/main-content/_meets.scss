@@ -1,0 +1,65 @@
+.rt-meets {
+  &-img-1 {
+    position: relative;
+    &::after {
+      content: "";
+      width: 89%;
+      height: 97%;
+      background-color: transparent;
+      border: 1px solid var(--rt-secondary-color);
+      position: absolute;
+      top: 20px;
+      left: 15px;
+      border-radius: 20px;
+    }
+  }
+  &-text-box {
+    padding-left: 43px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+  }
+  &-text-top {
+    & h5 {
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+      padding-left: 10px;
+    }
+  }
+  &-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--rt-secondary-color);
+    display: block;
+    display: grid;
+    place-items: center;
+    & span {
+      & img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  &-text-card-content {
+    & h4 {
+      font-weight: 700;
+      font-size: 22px;
+    }
+  }
+  &-card-text-info {
+    & p {
+      margin: 0;
+      padding-bottom: 12px;
+    }
+  }
+}
+
+.rt-section-title {
+  & h1 {
+    & span {
+      color: #16171a;
+    }
+  }
+}
