@@ -195,7 +195,7 @@ ul {
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	color: var(--rt-paragraph-color);
 	margin-bottom: 15px;
@@ -294,16 +294,17 @@ textarea{
 	padding-bottom: 17px;
 }
 
-*::-moz-selection {
-	background: var(--tp-common-black);
-	color: var(--tp-common-white);
-	text-shadow: none;
-}
-*::selection {
-	background: var(--tp-common-black);
-	color: var(--tp-common-white);
-	text-shadow: none;
-}
+// salim rana vayer selection niye kaj korele text gulo selection hoccilona jonno comment kore rekheci 
+// *::-moz-selection {
+// 	background: var(--tp-common-black);
+// 	color: var(--tp-common-white);
+// 	text-shadow: none;
+// }
+// *::selection {
+// 	background: var(--tp-common-black);
+// 	color: var(--tp-common-white);
+// 	text-shadow: none;
+// }
 
 *::-moz-placeholder {
 	color: var(--tp-common-black);

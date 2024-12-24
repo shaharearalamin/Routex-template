@@ -24,6 +24,9 @@
     }
   }
   &-img {
+    &-content {
+      height: 100%;
+    }
     &-shape {
       &-1 {
         left: -60px;
@@ -43,9 +46,7 @@
       aspect-ratio: 4/4;
       border-radius: 50%;
       background: var(--rt-secondary-color);
-      position: absolute;
-      left: 0;
-      bottom: -220px;
+      margin-bottom: -200px;
     }
   }
 }
