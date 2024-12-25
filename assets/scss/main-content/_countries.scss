@@ -1,0 +1,36 @@
+.rt-countries {
+  &-slider {
+    & a {
+      & img {
+        width: 100%;
+        height: 422px;
+      }
+    }
+    &-icon {
+      top: 30px;
+      right: 30px;
+    }
+  }
+  &-next-btn,
+  &-prev-btn {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    & i {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+  &-next-btn {
+    top: 28%;
+    right: 84px;
+  }
+  &-prev-btn {
+    top: 28%;
+    right: 0;
+  }
+}

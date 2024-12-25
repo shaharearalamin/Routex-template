@@ -14,4 +14,20 @@
       enabled: false,
     },
   });
+
+  // countries slider 
+   var swiper = new Swiper(".rt-countries-slider", {
+     slidesPerView: 5,
+     spaceBetween: 30,
+     loop: true,
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+     navigation: {
+       nextEl: ".rt-countries-next-btn",
+       prevEl: ".rt-countries-prev-btn",
+     },
+   });
+  
 })(jQuery);
