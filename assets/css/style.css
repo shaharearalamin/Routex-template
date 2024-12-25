@@ -7885,6 +7885,7 @@ nav ul li:hover i {
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
+  z-index: 9999;
 }
 .rt-sub-menu li {
   display: block;

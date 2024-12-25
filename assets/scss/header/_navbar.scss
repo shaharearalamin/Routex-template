@@ -43,6 +43,7 @@ nav {
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
+  z-index: 9999;
   & li {
     display: block;
     margin: 10px;
