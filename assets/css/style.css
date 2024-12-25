@@ -7980,4 +7980,26 @@ nav ul li:hover i {
   color: #16171a;
 }
 
+.rt-branding-slider .swiper-wrapper {
+  transition-timing-function: linear;
+}
+.rt-branding-slider .swiper-wrapper .swiper-slide {
+  width: auto;
+  padding: 0px 78px;
+}
+
+.rt-branding-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
