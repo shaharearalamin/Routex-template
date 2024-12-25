@@ -41,6 +41,20 @@
         object-fit: contain;
       }
     }
+    &-text {
+      & p {
+        color: var(--rt-primary-color);
+        display: block;
+        margin: 0;
+      }
+      & a {
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--rt-primary-color);
+        display: block;
+        
+      }
+    }
   }
   &-text-card-content {
     & h4 {
@@ -55,4 +69,3 @@
     }
   }
 }
-

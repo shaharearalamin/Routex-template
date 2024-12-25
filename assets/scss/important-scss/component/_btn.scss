@@ -1,19 +1,5 @@
 @use "../utils" as *;
 
-// header btn
-// .rt-header-btn {
-//   background-color: var(--rt-secondary-color);
-//   color: var(--rt-common-white);
-//   border-radius: 50px;
-//   padding: 13px 30px;
-//   font-weight: 600;
-//   font-size: 14px;
-//   text-align: center;
-//   text-wrap: nowrap;
-//   & i {
-//     padding: 10px;
-//   }
-// }
 .rt-btn {
   background-color: var(--rt-secondary-color);
   color: var(--rt-common-white);
@@ -40,4 +26,10 @@
     }
   }
   }
+}
+.btn-primary-border{
+  border: 1px solid var(--rt-primary-color);
+}
+.btn-secondary-border{
+  border: 1px solid var(--rt-secondary-color);
 }

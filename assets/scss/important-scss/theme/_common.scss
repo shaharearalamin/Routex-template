@@ -32,6 +32,12 @@
 .bg-secondary-color{
 	background-color: var(--rt-secondary-color);
 }
+.text-primary-color{
+	color: var(--rt-primary-color);
+}
+.text-secondary-color{
+	color: var(--rt-secondary-color);
+}
 
 .img-max-width{
     & img{
