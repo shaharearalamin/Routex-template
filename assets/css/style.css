@@ -8056,7 +8056,7 @@ nav ul li:hover i {
 }
 .rt-countries-next-btn i, .rt-countries-prev-btn i {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 .rt-countries-next-btn {
   top: 28%;
@@ -8065,6 +8065,18 @@ nav ul li:hover i {
 .rt-countries-prev-btn {
   top: 28%;
   right: 0;
+}
+
+.rt-await-card-text h4 {
+  font-size: 22px;
+}
+.rt-await-card-icon a {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--rt-secondary-color);
 }
 
 /*# sourceMappingURL=style.css.map */
