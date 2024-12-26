@@ -7900,6 +7900,31 @@ nav ul li:hover i {
   color: var(--rt-heading-color);
 }
 
+.rt-fact-img-text cite {
+  width: 80px;
+  height: 80px;
+  background-color: var(--rt-secondary-color);
+  display: block;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.rt-fact-img span {
+  height: 100%;
+  display: block;
+}
+.rt-fact-img span img {
+  height: 100%;
+}
+
+.rt-fact-right-img {
+  top: -40px;
+  right: -90px;
+}
+.rt-fact-right-img img {
+  width: 90%;
+}
+
 .rt-hero-text h1 {
   color: var(--rt-common-white);
   font-size: clamp(53px, 4vw, 80px);
@@ -8077,6 +8102,19 @@ nav ul li:hover i {
   display: grid;
   place-items: center;
   border: 1px solid var(--rt-secondary-color);
+}
+
+.rt-city-card-list li {
+  list-style: none;
+}
+.rt-city-card-list li p {
+  margin: 0 0 9px 0;
+}
+.rt-city-card {
+  padding: 40px 30px;
+}
+.rt-city-card h4 {
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.rt-city {
+  &-card-list {
+    & li {
+      list-style: none;
+      & p {
+        margin: 0 0 9px 0;
+      }
+    }
+  }
+  &-card {
+    padding: 40px 30px;
+    & h4 {
+      font-size: 22px;
+    }
+  }
+}

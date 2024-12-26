@@ -1,0 +1,30 @@
+.rt-fact{
+    &-img-text{
+        & cite {
+            width: 80px;
+            height: 80px;
+            background-color: var(--rt-secondary-color);
+            display: block;
+            border-radius: 50%;
+            display: grid;
+            place-items: center ;
+        }
+    }
+    &-img{
+        & span{
+            height: 100%;
+            display: block;
+            & img{
+                height: 100%;
+            }
+        }
+    }
+
+}
+.rt-fact-right-img{
+    top: -40px;
+    right: -90px;
+    & img {
+        width: 90%;
+    }
+}
