@@ -29,5 +29,20 @@
        prevEl: ".rt-countries-prev-btn",
      },
    });
+
+  // team slider 
+   var swiper = new Swiper(".rt-team-slider", {
+     slidesPerView: 3,
+     spaceBetween: 30,
+     loop: true,
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+     navigation: {
+       nextEl: ".rt-team-next-btn",
+       prevEl: ".rt-team-prev-btn",
+     },
+   });
   
 })(jQuery);

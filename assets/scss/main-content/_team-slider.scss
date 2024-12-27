@@ -1,0 +1,51 @@
+.rt-team {
+  &-next-btn,
+  &-prev-btn {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    & i {
+      color: var(--rt-primary-color);
+      font-size: 16px;
+    }
+  }
+  &-next-btn {
+    top: 28%;
+    right: 84px;
+  }
+  &-prev-btn {
+    top: 28%;
+    right: 0;
+  }
+  &-card {
+    width: 100%;
+    height: 440px;
+    &-img {
+      width: 100%;
+      height: 70%;
+      display: block;
+    }
+    &-text {
+      // height: 200px;
+      margin-left: 30px;
+      margin-top: -70px;
+      & h4 {
+        font-size: 22px;
+        line-height: 1.36;
+      }
+    }
+    &-icon {
+      & span {
+        width: 60px;
+        height: 60px;
+        display: block;
+        display: grid;
+        place-items: center;
+      }
+    }
+  }
+}

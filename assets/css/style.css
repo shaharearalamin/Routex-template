@@ -7916,13 +7916,12 @@ nav ul li:hover i {
 .rt-fact-img span img {
   height: 100%;
 }
-
 .rt-fact-right-img {
   top: -40px;
   right: -90px;
 }
 .rt-fact-right-img img {
-  width: 90%;
+  width: 100%;
 }
 
 .rt-hero-text h1 {
@@ -7976,6 +7975,52 @@ nav ul li:hover i {
   height: 100px;
   border-radius: 50%;
   background-color: var(--rt-secondary-color);
+  display: block;
+  display: grid;
+  place-items: center;
+}
+
+.rt-team-next-btn, .rt-team-prev-btn {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #fff;
+}
+.rt-team-next-btn i, .rt-team-prev-btn i {
+  color: var(--rt-primary-color);
+  font-size: 16px;
+}
+.rt-team-next-btn {
+  top: 28%;
+  right: 84px;
+}
+.rt-team-prev-btn {
+  top: 28%;
+  right: 0;
+}
+.rt-team-card {
+  width: 100%;
+  height: 440px;
+}
+.rt-team-card-img {
+  width: 100%;
+  height: 70%;
+  display: block;
+}
+.rt-team-card-text {
+  margin-left: 30px;
+  margin-top: -70px;
+}
+.rt-team-card-text h4 {
+  font-size: 22px;
+  line-height: 1.36;
+}
+.rt-team-card-icon span {
+  width: 60px;
+  height: 60px;
   display: block;
   display: grid;
   place-items: center;
