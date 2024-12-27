@@ -172,6 +172,16 @@
   border: 1px solid var(--rt-secondary-color);
 }
 
+.customize-arrow-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  display: grid;
+  place-items: center;
+  border: 1px solid #E3DBD8;
+}
+
 .rt-section-title-icon h5 {
   margin: 0;
   text-transform: uppercase;
@@ -369,6 +379,10 @@ textarea {
 
 .br-50 {
   border-radius: 50px;
+}
+
+.br-30 {
+  border-radius: 30px;
 }
 
 .br-20 {
@@ -8160,6 +8174,35 @@ nav ul li:hover i {
 }
 .rt-city-card h4 {
   font-size: 22px;
+}
+
+.rt-tabs-content {
+  z-index: 999;
+}
+.rt-tabs-btn-content h4 {
+  font-size: 22px;
+}
+.rt-tabs-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.rt-tabs-img-content {
+  width: 100%;
+  height: 100%;
+}
+.rt-tabs-img-icon {
+  left: 30%;
+  bottom: 30px;
+}
+.rt-tabs-img-icon a {
+  margin: 0px 10px;
+}
+
+.shape {
+  top: 0;
+  left: 0;
+  opacity: 0.1;
 }
 
 /*# sourceMappingURL=style.css.map */
