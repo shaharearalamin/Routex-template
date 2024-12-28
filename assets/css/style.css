@@ -8040,6 +8040,31 @@ nav ul li:hover i {
   place-items: center;
 }
 
+.rt-testimonials-next-btn, .rt-testimonials-prev-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  display: grid;
+  place-items: center;
+}
+.rt-testimonials-card > p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.67;
+  color: #fff;
+}
+.rt-testimonials-sm-icon-text h5 {
+  font-size: 22px;
+  line-height: 136%;
+  color: #fff;
+}
+.rt-testimonials-sm-icon-text p {
+  font-weight: 400;
+  line-height: 187%;
+  color: #fff;
+}
+
 .rt-meets-img-1 {
   position: relative;
 }

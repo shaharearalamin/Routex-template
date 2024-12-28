@@ -45,4 +45,22 @@
      },
    });
   
+  // testimonials slider 
+  var swiper = new Swiper(".rt-testimonials-slider", {
+    slidesPerView: 1,
+    loop: true,
+    spaceBetween: 30,
+    keyboard: {
+      enabled: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".rt-testimonials-next-btn",
+      prevEl: ".rt-testimonials-prev-btn",
+    },
+  });
+  
 })(jQuery);
