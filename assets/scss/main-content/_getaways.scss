@@ -1,0 +1,17 @@
+.rt-getaways {
+  &-content-shape {
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+  }
+  &-card-wrapper {
+    & h5 {
+      font-size: 22px;
+    }
+    & h1 {
+      font-weight: bold;
+      color: transparent;
+      -webkit-text-stroke: 1px var(--rt-primary-color);
+    }
+  }
+}

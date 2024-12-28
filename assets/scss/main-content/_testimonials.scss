@@ -1,13 +1,13 @@
 .rt-testimonials {
-    &-next-btn, &-prev-btn{
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background-color: red;
-        display: grid;
-        place-items: center;
-
-    }
+  &-next-btn,
+  &-prev-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    display: grid;
+    place-items: center;
+  }
 
   &-card {
     & > p {
