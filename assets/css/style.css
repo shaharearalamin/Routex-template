@@ -361,7 +361,7 @@ textarea {
   opacity: 1;
 }
 
-.w-img img {
+.w-img {
   width: 100%;
 }
 
@@ -7912,6 +7912,34 @@ nav ul li:hover i {
   font-size: 15px;
   text-transform: uppercase;
   color: var(--rt-heading-color);
+}
+
+.rt-blog-card-img span img {
+  border-radius: 20px 20px 0 0;
+}
+.rt-blog-next-btn, .rt-blog-prev-btn {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #fff;
+}
+.rt-blog-next-btn i, .rt-blog-prev-btn i {
+  color: var(--rt-primary-color);
+  font-size: 16px;
+}
+.rt-blog-next-btn {
+  top: 13%;
+  right: 84px;
+}
+.rt-blog-prev-btn {
+  top: 13%;
+  right: 0;
+}
+.rt-blog-card-heading-text {
+  font-size: 22px;
 }
 
 .rt-fact-img-text cite {

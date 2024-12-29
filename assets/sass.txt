@@ -1,1 +1,102 @@
-sass --watch C:\Users\User\Desktop\sass\assets\scss\main.scss:C:\Users\User\Desktop\sass\assets\css\style.css
+<section class="rt-blog-area mb-200">
+        <div class="container">
+          <!-- start section-title -->
+          <div class="rt-section-title-icon d-flex align-items-center pt-112">
+            <span>
+              <img
+                src="./assets/img/icon/home-1-meets-text-icon-1.png"
+                alt=""
+              />
+            </span>
+            <h5>Process Overview</h5>
+          </div>
+          <div class="rt-section-title">
+            <h1 class="mt-12 pb-30">
+              Unforgettable Getaways <br />
+              Escaping Routine
+            </h1>
+          </div>
+          <!-- end section-title -->
+
+          <div class="row">
+            <div class="col-md-4 border">
+              <div class="rt-blog-card-wrapper border border-danger">
+                <div class="rt-blog-card-img m-img ">
+                  <span>
+                    <img
+                      src="./assets/img/blog/home-1-blog-img-1.jpg"
+                      alt=""
+                    />
+                  </span>
+                </div>
+                <div class="rt-blog-card-text p-40 pt-20">
+                  <div
+                    class="rt-blog-card-sm-text d-flex align-items-center justify-content-between"
+                  >
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-calendar-alt"></i>
+                      <p class="m-0 pl-10">October 19, 2022</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="far fa-user"></i>
+                      <p class="m-0 pl-10">By admin</p>
+                    </div>
+                  </div>
+                  <div class="rt-blog-card-heading-text">
+                    <h5 class="mt-30 mb-16">
+                      World of Wander Discovering <br />
+                      Diverse Landscapes
+                    </h5>
+                    <p>
+                      Lorem Ipsum is simply dummy text the <br />
+                      printing and typese Lorem Ipsum
+                    </p>
+                    <button class="rt-btn-transparent ps-0 text-primary-color border-0">Read More <i class="fal fa-arrow-right fw-bold pl-5"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+
+      card 
+
+       <div class="rt-blog-card-wrapper border border-danger">
+                <div class="rt-blog-card-img m-img ">
+                  <span>
+                    <img
+                      src="./assets/img/blog/home-1-blog-img-1.jpg"
+                      alt=""
+                    />
+                  </span>
+                </div>
+                <div class="rt-blog-card-text p-40 pt-20">
+                  <div
+                    class="rt-blog-card-sm-text d-flex align-items-center justify-content-between"
+                  >
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-calendar-alt"></i>
+                      <p class="m-0 pl-10">October 19, 2022</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="far fa-user"></i>
+                      <p class="m-0 pl-10">By admin</p>
+                    </div>
+                  </div>
+                  <div class="rt-blog-card-heading-text">
+                    <h5 class="mt-30 mb-16">
+                      World of Wander Discovering <br />
+                      Diverse Landscapes
+                    </h5>
+                    <p>
+                      Lorem Ipsum is simply dummy text the <br />
+                      printing and typese Lorem Ipsum
+                    </p>
+                    <button class="rt-btn-transparent ps-0 text-primary-color border-0">Read More <i class="fal fa-arrow-right fw-bold pl-5"></i></button>
+                  </div>
+                </div>
+              </div>

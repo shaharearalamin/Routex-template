@@ -62,5 +62,23 @@
       prevEl: ".rt-testimonials-prev-btn",
     },
   });
+
+  //  blog
+  var swiper = new Swiper(".rt-blog-slider", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    keyboard: {
+      enabled: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".rt-blog-next-btn",
+      prevEl: ".rt-blog-prev-btn",
+    },
+  });
   
 })(jQuery);
