@@ -1,1 +1,67 @@
 @use "../important-scss" as *;
+
+.rt-footer {
+  &-left-icon {
+    & span {
+      width: 80px;
+      height: 80px;
+      display: block;
+      border-radius: 50%;
+      background-color: var(--rt-secondary-color);
+      display: grid;
+      place-items: center;
+    }
+    & h5 {
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 120%;
+      text-transform: capitalize;
+    }
+  }
+  &-border-start {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  &-header-icon {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  &-list {
+    & li {
+      list-style-type: none;
+      & a {
+        line-height: 2.6;
+        font-size: 16px;
+        color: #fff;
+      }
+    }
+  }
+  &-col {
+    & h4 {
+      font-size: 22px;
+      line-height: 136%;
+    }
+  }
+  &-input {
+    width: 100%;
+    & input {
+      background-color: #000;
+      color: #fff;
+      border: 1px solid rgba(110, 80, 80, 0.7);
+      &:focus{
+        border: none ;
+      }
+    }
+    & a {
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        background-color: var(--rt-secondary-color);
+        display: block;
+        display: grid;
+        place-items: center;
+        position: absolute;
+        top: 0;
+        right: -10px;
+    }
+  }
+}
