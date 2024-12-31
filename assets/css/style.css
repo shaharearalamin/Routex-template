@@ -8272,6 +8272,11 @@ nav ul li:hover i {
   -webkit-text-stroke: 1px var(--rt-primary-color);
 }
 
+.rt-footer-bg-shape span {
+  left: 135px;
+  bottom: 0;
+  z-index: -1;
+}
 .rt-footer-left-icon span {
   width: 80px;
   height: 80px;

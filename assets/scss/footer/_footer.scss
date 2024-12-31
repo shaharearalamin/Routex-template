@@ -1,6 +1,13 @@
 @use "../important-scss" as *;
 
 .rt-footer {
+  &-bg-shape {
+    & span {
+      left: 135px;
+      bottom: 0;
+      z-index: -1;
+    }
+  }
   &-left-icon {
     & span {
       width: 80px;
@@ -47,21 +54,21 @@
       background-color: #000;
       color: #fff;
       border: 1px solid rgba(110, 80, 80, 0.7);
-      &:focus{
-        border: none ;
+      &:focus {
+        border: none;
       }
     }
     & a {
-        width: 54px;
-        height: 54px;
-        border-radius: 50%;
-        background-color: var(--rt-secondary-color);
-        display: block;
-        display: grid;
-        place-items: center;
-        position: absolute;
-        top: 0;
-        right: -10px;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background-color: var(--rt-secondary-color);
+      display: block;
+      display: grid;
+      place-items: center;
+      position: absolute;
+      top: 0;
+      right: -10px;
     }
   }
 }
