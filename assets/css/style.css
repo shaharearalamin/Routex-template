@@ -8084,13 +8084,14 @@ nav ul li:hover i {
 }
 .rt-testimonials-sm-icon-text h5 {
   font-size: 22px;
-  line-height: 136%;
+  line-height: 1;
   color: #fff;
 }
 .rt-testimonials-sm-icon-text p {
   font-weight: 400;
   line-height: 187%;
   color: #fff;
+  margin: 0;
 }
 
 .rt-meets-img-1 {

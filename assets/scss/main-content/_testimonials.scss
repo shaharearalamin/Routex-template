@@ -20,13 +20,14 @@
   &-sm-icon-text {
     & h5 {
       font-size: 22px;
-      line-height: 136%;
+      line-height: 1;
       color: #fff;
     }
     & p {
       font-weight: 400;
       line-height: 187%;
       color: #fff;
+      margin: 0;
     }
   }
 }
