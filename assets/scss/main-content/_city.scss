@@ -1,3 +1,6 @@
+@use "../important-scss" as *;
+
+
 .rt-city {
   &-card-list {
     & li {
@@ -9,6 +12,9 @@
   }
   &-card {
     padding: 40px 30px;
+    @media #{$xl} {
+      padding: 16px;
+    }
     & h4 {
       font-size: 22px;
     }

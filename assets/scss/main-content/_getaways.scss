@@ -1,4 +1,13 @@
+@use "../important-scss" as *;
+
+
 .rt-getaways {
+  &-area{
+    @media #{$xl,$lg} {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
   &-content-shape {
     top: 0;
     left: 0;

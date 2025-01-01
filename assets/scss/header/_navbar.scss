@@ -1,6 +1,9 @@
 @use "../important-scss" as *;
 
 nav {
+  @media #{$xl,$lg} {
+    padding-right: 10px;
+  }
   & ul {
     & li {
       list-style: none;
@@ -55,5 +58,17 @@ nav {
       text-transform: uppercase;
       color: var(--rt-heading-color);
     }
+  }
+}
+
+// Responsive 
+.rt-right-btn{
+  @media #{$xl} {
+    padding-right: 0;
+  }
+}
+.rt-main-logo{
+  @media #{$xl,$lg} {
+    padding-left: 10px;
   }
 }

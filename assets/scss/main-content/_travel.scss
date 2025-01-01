@@ -1,13 +1,32 @@
+@use "../important-scss" as *;
+
+
 .rt-travel {
+  &-area-content{
+    @media #{$xl} {
+      padding-top: 30px;
+    }
+  }
+  &-card-1{
+    @media #{$xl,$lg} {
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 24px;
+    }
+  }
   &-card-text {
     & h3 {
       font-size: 22px;
+      @media #{$lg} {
+        margin-top: 30px;
+      }
     }
   }
   &-card-icon {
     & span {
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
       background-color: var(--rt-secondary-color);
       display: block;

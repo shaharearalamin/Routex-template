@@ -1,11 +1,26 @@
 @use "../important-scss" as *;
 
 .rt-footer {
+  &-responsive-col{
+    padding-left: 30px;
+  }
+  &-br-remove{
+    & br {
+          @media #{$xl} {
+              display: none;
+          }
+        }
+  }
   &-bg-shape {
     & span {
       left: 135px;
       bottom: 0;
       z-index: -1;
+      @media #{$xl} {
+        left: 100px;
+        bottom: 0;
+        z-index: -1;
+    }
     }
   }
   &-left-icon {
@@ -43,6 +58,7 @@
     }
   }
   &-col {
+    
     & h4 {
       font-size: 22px;
       line-height: 136%;
@@ -69,6 +85,9 @@
       position: absolute;
       top: 0;
       right: -10px;
+      @media #{$xl} {
+        right: -6px;
+    }
     }
   }
 }

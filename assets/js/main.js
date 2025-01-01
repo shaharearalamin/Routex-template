@@ -42,6 +42,25 @@
       nextEl: ".rt-countries-next-btn",
       prevEl: ".rt-countries-prev-btn",
     },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 0,
+      },
+      768: {
+        slidesPerView: 4,
+        // spaceBetween: 40,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      1400: {
+        slidesPerView: 5,
+        // spaceBetween: 50,
+      },
+    },
+
   });
 
   // team slider
