@@ -8,6 +8,9 @@
     @media #{$lg} {
       padding: 32px;
     }
+    @media #{$md} {
+      padding: 26px;
+    }
   }
   &-next-btn,
   &-prev-btn {
@@ -28,7 +31,7 @@
       @media #{$xl} {
         font-size: 24px;
       }
-      @media #{$lg} {
+      @media #{$lg,$md} {
         font-size: 18px;
       }
     }

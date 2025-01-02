@@ -3,7 +3,7 @@
 
 .rt-getaways {
   &-area{
-    @media #{$xl,$lg} {
+    @media #{$xl,$lg,$md} {
       margin-left: 30px;
       margin-right: 30px;
     }
@@ -14,7 +14,7 @@
     opacity: 0.1;
   }
   &-card-wrapper {
-    @media #{$lg} {
+    @media #{$lg,$md} {
       margin-top: 30px;
     }
     & h5 {

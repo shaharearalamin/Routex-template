@@ -1,15 +1,22 @@
 @use "../important-scss" as *;
 
 .rt-footer {
-  &-responsive-col{
+  &-responsive-col {
     padding-left: 30px;
+    @media #{$md} {
+      padding-left: 0;
+    }
   }
-  &-br-remove{
+  &-br-remove {
+    @media #{$md} {
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
     & br {
-          @media #{$xl} {
-              display: none;
-          }
-        }
+      @media #{$xl} {
+        display: none;
+      }
+    }
   }
   &-bg-shape {
     & span {
@@ -20,7 +27,13 @@
         left: 100px;
         bottom: 0;
         z-index: -1;
-    }
+      }
+      @media #{$md} {
+        left: 0px;
+        bottom: 0;
+        z-index: -1;
+      }
+      
     }
   }
   &-left-icon {
@@ -39,6 +52,9 @@
       font-size: 30px;
       line-height: 120%;
       text-transform: capitalize;
+      @media #{$md} {
+        font-size: 20px;
+      }
     }
   }
   &-border-start {
@@ -58,7 +74,6 @@
     }
   }
   &-col {
-    
     & h4 {
       font-size: 22px;
       line-height: 136%;
@@ -87,7 +102,7 @@
       right: -10px;
       @media #{$xl} {
         right: -6px;
-    }
+      }
     }
   }
 }

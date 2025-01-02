@@ -11,6 +11,9 @@
   &-right-part {
     & a {
       margin: 0 20px;
+      //  @media #{$md} {
+      //   font-size: 14px;
+      // }
     }
   }
 }

@@ -3,7 +3,7 @@
 .rt-blog {
   &-card-wrapper {
     & br {
-      @media #{$lg} {
+      @media #{$lg,$md} {
         display: none;
       }
     }
@@ -53,6 +53,9 @@
     & h5 {
       @media #{$lg} {
         font-size: 17px;
+      }
+      @media #{$md} {
+        font-size: 19px;
       }
     }
     & p {

@@ -131,5 +131,15 @@
       nextEl: ".rt-blog-next-btn",
       prevEl: ".rt-blog-prev-btn",
     },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 0,
+      },
+      768: {
+        slidesPerView: 2,
+        // spaceBetween: 40,
+      },
+    },
   });
 })(jQuery);
