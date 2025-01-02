@@ -2,7 +2,7 @@
 
 .rt-tabs {
   &-area {
-    @media #{$xl,$lg} {
+    @media #{$xl,$lg,$md} {
       margin-left: 30px;
       margin-right: 30px;
     }
@@ -26,9 +26,19 @@
     &-icon {
       left: 30%;
       bottom: 30px;
+      @media #{$md} {
+        padding: 4px;
+        left: 14%;
+        bottom: 20px;
+      }
       & a {
         margin: 0px 10px;
       }
+    }
+  }
+  &-btn-content {
+    @media #{$md} {
+      padding: 20px;
     }
   }
 }

@@ -48,7 +48,7 @@
         spaceBetween: 0,
       },
       768: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         // spaceBetween: 40,
       },
       992: {
@@ -80,6 +80,21 @@
       nextEl: ".rt-team-next-btn",
       prevEl: ".rt-team-prev-btn",
     },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 0,
+      },
+      768: {
+        slidesPerView: 2,
+        // spaceBetween: 40,
+      },
+      992: {
+        slidesPerView: 3,
+        // spaceBetween: 40,
+      },
+    },
+
   });
 
   // testimonials slider

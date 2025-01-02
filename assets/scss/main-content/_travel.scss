@@ -1,24 +1,30 @@
 @use "../important-scss" as *;
 
-
 .rt-travel {
-  &-area-content{
+  &-area-content {
     @media #{$xl} {
       padding-top: 30px;
+    }
+    @media #{$md} {
+      padding: 0 16px;
     }
     @media #{$lg} {
       padding-left: 30px;
       padding-right: 30px;
       padding-bottom: 0px;
     }
+    
   }
-  &-card-1{
+  &-card-1 {
     @media #{$xl,$lg} {
       padding-top: 30px;
       padding-left: 20px;
       padding-right: 20px;
       padding-bottom: 24px;
       margin-top: 50px;
+    }
+    @media #{$md} {
+      padding: 14px;
     }
   }
   &-card-text {
@@ -27,7 +33,17 @@
       @media #{$lg} {
         margin-top: 30px;
       }
+      @media #{$md} {
+        font-size: 18px;
+        margin-top: 26px;
+        margin-bottom: 12px;
+      }
     }
+     & p {
+      @media #{$md} {
+        font-size: 14px;
+      }
+     }
   }
   &-card-icon {
     & span {

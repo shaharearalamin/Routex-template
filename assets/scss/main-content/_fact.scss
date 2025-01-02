@@ -46,7 +46,10 @@
     @media #{$xl,$lg} {
       padding: 20px;
     }
-    
+    @media #{$md} {
+      padding: 30px 50px 30px 30px;
+    }
+
     &-content {
       & h1 {
         @media #{$xl} {
@@ -57,7 +60,7 @@
         }
       }
       & p {
-        @media #{$lg} {
+        @media #{$lg,$md} {
           font-size: 14px;
         }
       }

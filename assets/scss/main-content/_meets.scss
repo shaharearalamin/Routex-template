@@ -2,7 +2,7 @@
 
 .rt-meets {
   &-text-content{
-    @media #{$lg} {
+    @media #{$lg,$md} {
       margin-bottom: 50px;
     }
   }
@@ -18,10 +18,16 @@
       top: 10px;
       left: 10px;
       border-radius: 20px;
-      @media #{$xl} {
+      @media #{$md} {
         display: none;
       }
     }
+    & img {
+      @media #{$md} {
+        width: 98%;
+      }
+    }
+
   }
   &-img-2 {
     width: 100%;
