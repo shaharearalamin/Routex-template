@@ -1,10 +1,12 @@
 @use "../important-scss" as *;
 
-
 .rt-testimonials {
-  &-slider-wrapper{
+  &-slider-wrapper {
     @media #{$xl} {
-        padding: 38px;
+      padding: 38px;
+    }
+    @media #{$lg} {
+      padding: 32px;
     }
   }
   &-next-btn,
@@ -24,9 +26,11 @@
       line-height: 1.67;
       color: #fff;
       @media #{$xl} {
-       font-size: 24px;
+        font-size: 24px;
       }
-      
+      @media #{$lg} {
+        font-size: 18px;
+      }
     }
   }
   &-sm-icon-text {

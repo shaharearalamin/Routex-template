@@ -1,11 +1,13 @@
 @use "../important-scss" as *;
 
-
 .rt-fact {
   &-img-text {
     @media #{$xl} {
       padding: 30px;
-     }
+    }
+    @media #{$lg} {
+      padding: 20px;
+    }
     & cite {
       width: 80px;
       height: 80px;
@@ -14,7 +16,6 @@
       border-radius: 50%;
       display: grid;
       place-items: center;
-     
     }
   }
   &-img {
@@ -29,21 +30,37 @@
   &-right-img {
     top: -40px;
     right: -90px;
+    z-index: -1;
+    @media #{$lg} {
+      top: 60px;
+      right: -190px;
+    }
     & img {
       width: 100%;
+      @media #{$lg} {
+        width: 70%;
+      }
     }
   }
-  &-counter{
-   @media #{$xl} {
-    padding: 20px;
-   }
-   &-content{
-    & h1 {
-      @media #{$xl} {
-        font-size: 40px;
-       }
+  &-counter {
+    @media #{$xl,$lg} {
+      padding: 20px;
     }
-   
-   }
+    
+    &-content {
+      & h1 {
+        @media #{$xl} {
+          font-size: 40px;
+        }
+        @media #{$lg} {
+          font-size: 34px;
+        }
+      }
+      & p {
+        @media #{$lg} {
+          font-size: 14px;
+        }
+      }
+    }
   }
 }

@@ -1,4 +1,25 @@
+@use "../important-scss/" as *;
+
 .rt-blog {
+  &-card-wrapper {
+    & br {
+      @media #{$lg} {
+        display: none;
+      }
+    }
+  }
+  &-card-text {
+    @media #{$lg} {
+      padding: 18px;
+    }
+  }
+  &-card-sm-text {
+    & p {
+      @media #{$lg} {
+        font-size: 14px;
+      }
+    }
+  }
   &-card-img {
     & span {
       & img {
@@ -29,7 +50,15 @@
     right: 0;
   }
   &-card-heading-text {
-    font-size: 22px;
+    & h5 {
+      @media #{$lg} {
+        font-size: 17px;
+      }
+    }
+    & p {
+      @media #{$lg} {
+        font-size: 14px;
+      }
+    }
   }
 }
-

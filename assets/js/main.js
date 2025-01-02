@@ -51,6 +51,10 @@
         slidesPerView: 4,
         // spaceBetween: 40,
       },
+      992: {
+        slidesPerView: 3,
+        // spaceBetween: 40,
+      },
       1200: {
         slidesPerView: 4,
         spaceBetween: 20,

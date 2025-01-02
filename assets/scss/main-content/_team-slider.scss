@@ -1,3 +1,5 @@
+@use "../important-scss/" as * ;
+
 .rt-team {
   &-next-btn,
   &-prev-btn {
@@ -16,10 +18,18 @@
   &-next-btn {
     top: 28%;
     right: 84px;
+    @media #{$lg} {
+      top: 28%;
+      right: 110px;
+    }
   }
   &-prev-btn {
     top: 28%;
     right: 0;
+    @media #{$lg} {
+      top: 28%;
+      right: 18px;
+    }
   }
   &-card {
     width: 100%;
@@ -33,9 +43,20 @@
       // height: 200px;
       margin-left: 30px;
       margin-top: -70px;
+      @media #{$lg} {
+        padding: 20px;
+      }
       & h4 {
         font-size: 22px;
         line-height: 1.36;
+        @media #{$lg} {
+          font-size: 18px;
+        }
+      }
+      & p {
+        @media #{$lg} {
+          font-size: 13px;
+        }
       }
     }
     &-icon {
