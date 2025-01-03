@@ -43,4 +43,7 @@
   place-items: center;
   // background-color: red;
   border: 1px solid #E3DBD8;
+  @media #{$xs} {
+    display: none;
+  }
 }

@@ -17,6 +17,12 @@
       margin-right: 30px;
       padding: 30px;
     }
+    @media #{$xs} {
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 18px;
+      border-radius: 30px;
+    }
     & .rt-section-title-icon {
       padding-top: 56px;
     }
@@ -67,11 +73,12 @@
       top: 27%;
       right: 120px;
     }
-    @media #{$md} {
+    @media #{$md,$xs} {
       top: inherit;
-      bottom: -14%;
+      bottom: -12%;
       right: 84px;
     }
+
   }
   &-prev-btn {
     top: 27%;
@@ -84,10 +91,11 @@
       top: 27%;
       right: 34px;
     }
-    @media #{$md} {
+    @media #{$md,$xs} {
       top: inherit;
-      bottom: -14%;
+      bottom: -12%;
       right:0px;
     }
+
   }
 }

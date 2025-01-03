@@ -5,7 +5,7 @@
     @media #{$xl} {
       padding: 30px;
     }
-    @media #{$lg} {
+    @media #{$lg,$xs} {
       padding: 20px;
     }
     & cite {
@@ -33,12 +33,16 @@
     z-index: -1;
     @media #{$lg} {
       top: 60px;
-      right: -190px;
+      right: -50px;
     }
+  
     & img {
       width: 100%;
       @media #{$lg} {
         width: 70%;
+      }
+      @media #{$xs} {
+        display: none;
       }
     }
   }
@@ -49,18 +53,21 @@
     @media #{$md} {
       padding: 30px 50px 30px 30px;
     }
+    @media #{$xs} {
+      padding: 30px;
+    }
 
     &-content {
       & h1 {
         @media #{$xl} {
           font-size: 40px;
         }
-        @media #{$lg} {
+        @media #{$lg,$xs} {
           font-size: 34px;
         }
       }
       & p {
-        @media #{$lg,$md} {
+        @media #{$lg,$md,$xs} {
           font-size: 14px;
         }
       }

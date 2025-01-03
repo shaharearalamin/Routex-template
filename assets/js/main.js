@@ -43,13 +43,13 @@
       prevEl: ".rt-countries-prev-btn",
     },
     breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 0,
+      350: {
+        slidesPerView: 1,
+        // spaceBetween: 0,
       },
-      768: {
+      576: {
         slidesPerView: 2,
-        // spaceBetween: 40,
+        // spaceBetween: 0,
       },
       992: {
         slidesPerView: 3,
@@ -64,7 +64,6 @@
         // spaceBetween: 50,
       },
     },
-
   });
 
   // team slider
@@ -81,20 +80,19 @@
       prevEl: ".rt-team-prev-btn",
     },
     breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 0,
+      350: {
+        slidesPerView: 1,
+        // spaceBetween: 0,
       },
-      768: {
+      576: {
         slidesPerView: 2,
-        // spaceBetween: 40,
+        // spaceBetween: 0,
       },
       992: {
         slidesPerView: 3,
         // spaceBetween: 40,
       },
     },
-
   });
 
   // testimonials slider
@@ -138,6 +136,10 @@
       },
       768: {
         slidesPerView: 2,
+        // spaceBetween: 40,
+      },
+      992: {
+        slidesPerView: 3,
         // spaceBetween: 40,
       },
     },

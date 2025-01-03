@@ -6,8 +6,21 @@
     @media #{$xl} {
       padding: 0 16px 0 0;
     }
+    @media #{$xs} {
+      padding-right: inherit;
+    }
+  }
+  &-card-img{
+    @media #{$xs} {
+      width: 100%;
+      margin-bottom: 20px;
+    }
   }
   &-card-text {
+    @media #{$xs} {
+      width: 100%;
+      // margin-bottom: 20px;
+    }
     & h4 {
       font-size: 22px;
     }
