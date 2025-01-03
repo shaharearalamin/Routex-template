@@ -8048,14 +8048,12 @@ nav ul li:hover i {
     bottom: -10%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .rt-blog-card-heading-text h5 {
-    font-size: 17px;
-  }
+.rt-blog-card-heading-text h5 {
+  font-size: 24px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .rt-blog-card-heading-text h5 {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -8154,6 +8152,12 @@ nav ul li:hover i {
   width: 100%;
   height: 422px;
 }
+@media (max-width: 767px) {
+  .rt-countries-slider a img {
+    width: 100%;
+    height: 350px;
+  }
+}
 .rt-countries-slider-icon {
   top: 30px;
   right: 30px;
@@ -8196,7 +8200,7 @@ nav ul li:hover i {
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .rt-countries-next-btn {
     top: inherit;
-    bottom: -12%;
+    bottom: -14%;
     right: 84px;
   }
 }
@@ -8219,7 +8223,7 @@ nav ul li:hover i {
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .rt-countries-prev-btn {
     top: inherit;
-    bottom: -12%;
+    bottom: -14%;
     right: 0px;
   }
 }
@@ -8375,6 +8379,20 @@ nav ul li:hover i {
     display: none;
   }
 }
+@media (max-width: 767px) {
+  .rt-hero-play-btn {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-hero-play-btn {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
 .rt-hero-play-btn span {
   width: 55px;
   height: 55px;
@@ -8466,17 +8484,15 @@ nav ul li:hover i {
     padding-left: 20px;
   }
 }
-@media (max-width: 767px) {
-  .rt-hero-play-btn {
-    margin-left: 0px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
-}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .rt-meets-text-content {
     margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-meets-btn {
+    padding-top: 0;
   }
 }
 .rt-meets-img-1 {
@@ -8565,6 +8581,13 @@ nav ul li:hover i {
     margin-bottom: 40px;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-meets-text-card-content {
+    margin-left: 30px;
+    margin-top: 36px;
+    margin-bottom: 40px;
+  }
+}
 .rt-meets-text-card-content h4 {
   font-weight: 700;
   font-size: 22px;
@@ -8625,6 +8648,11 @@ nav ul li:hover i {
   height: 100%;
   display: block;
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-tabs-img-wrapper span img {
+    width: 100%;
+  }
+}
 .rt-tabs-img-content {
   width: 100%;
   height: 100%;
@@ -8643,6 +8671,12 @@ nav ul li:hover i {
 @media (max-width: 767px) {
   .rt-tabs-img-icon {
     left: 23%;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-tabs-img-icon {
+    left: 36%;
     bottom: 20px;
   }
 }
@@ -8697,6 +8731,13 @@ nav ul li:hover i {
     right: 110px;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-team-next-btn {
+    top: inherit;
+    bottom: -12%;
+    right: 110px;
+  }
+}
 .rt-team-prev-btn {
   top: 28%;
   right: 0;
@@ -8720,6 +8761,13 @@ nav ul li:hover i {
     right: 19px;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-team-prev-btn {
+    top: inherit;
+    bottom: -12%;
+    right: 19px;
+  }
+}
 .rt-team-card {
   width: 100%;
   height: 440px;
@@ -8728,6 +8776,13 @@ nav ul li:hover i {
   width: 100%;
   height: 70%;
   display: block;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-team-card-img {
+    width: 100%;
+    height: 60%;
+    display: block;
+  }
 }
 .rt-team-card-text {
   margin-left: 30px;
@@ -8758,6 +8813,15 @@ nav ul li:hover i {
   display: block;
   display: grid;
   place-items: center;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .rt-team-card-icon span {
+    width: 40px;
+    height: 40px;
+    display: block;
+    display: grid;
+    place-items: center;
+  }
 }
 .rt-team-slider a img {
   width: 100%;

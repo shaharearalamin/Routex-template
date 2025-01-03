@@ -32,6 +32,15 @@
     width: 100%;
     height: 100%;
     display: block;
+    &-wrapper{
+      & span {
+        & img {
+          @media #{$sm} {
+            width: 100%;
+          }
+        }
+      }
+    }
     &-content {
       width: 100%;
       height: 100%;
@@ -46,6 +55,10 @@
       }
       @media #{$xs} {
         left: 23%;
+        bottom: 20px;
+      }
+      @media #{$sm} {
+        left: 36%;
         bottom: 20px;
       }
       & a {

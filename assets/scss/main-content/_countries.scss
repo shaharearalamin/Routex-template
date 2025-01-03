@@ -32,6 +32,10 @@
       & img {
         width: 100%;
         height: 422px;
+        @media #{$xs} {
+          width: 100%;
+          height: 350px;
+        }
       }
     }
     &-icon {
@@ -75,7 +79,7 @@
     }
     @media #{$md,$xs} {
       top: inherit;
-      bottom: -12%;
+      bottom: -14%;
       right: 84px;
     }
 
@@ -93,7 +97,7 @@
     }
     @media #{$md,$xs} {
       top: inherit;
-      bottom: -12%;
+      bottom: -14%;
       right:0px;
     }
 

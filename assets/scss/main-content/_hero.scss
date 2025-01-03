@@ -34,6 +34,16 @@
     }
   }
   &-play-btn {
+    @media #{$xs} {
+      margin-left: 0px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+    @media #{$sm} {
+      margin-left: 20px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
     & span {
       width: 55px;
       height: 55px;
@@ -117,13 +127,6 @@
   &-xs-responsive {
     @media #{$xs} {
       padding-left: 20px;
-    }
-  }
-  &-play-btn {
-    @media #{$xs} {
-      margin-left: 0px;
-      margin-top: 30px;
-      margin-bottom: 40px;
     }
   }
 }
