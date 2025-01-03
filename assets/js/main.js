@@ -1,6 +1,12 @@
 (function ($) {
   "use strict";
 
+  // magnificPopup start 
+  $('.popup-hero-vedio').magnificPopup({
+    type: 'iframe'
+  });
+
+
   // data background img
   $("[data-background]").each(function () {
     $(this).css(
