@@ -3,7 +3,7 @@
 .rt-footer {
   &-responsive-col {
     padding-left: 30px;
-    @media #{$md} {
+    @media #{$md,$xs} {
       padding-left: 0;
     }
   }
@@ -11,6 +11,9 @@
     @media #{$md} {
       padding-top: 30px;
       padding-bottom: 50px;
+    }
+    @media #{$xs} {
+      padding-top: 30px;
     }
     & br {
       @media #{$xl} {
@@ -52,13 +55,16 @@
       font-size: 30px;
       line-height: 120%;
       text-transform: capitalize;
-      @media #{$md} {
-        font-size: 20px;
+      @media #{$md,$xs} {
+        font-size: 19px;
       }
     }
   }
   &-border-start {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
+    @media #{$xs} {
+      border: none;
+    }
   }
   &-header-icon {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -77,6 +83,10 @@
     & h4 {
       font-size: 22px;
       line-height: 136%;
+      @media #{$xs} {
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
     }
   }
   &-input {
@@ -103,6 +113,14 @@
       @media #{$xl} {
         right: -6px;
       }
+      @media #{$xs} {
+        right: 0px;
+      }
+    }
+  }
+  &-icon{
+    @media #{$xs} {
+      padding: 5px 20px ;
     }
   }
 }

@@ -130,13 +130,13 @@
       prevEl: ".rt-blog-prev-btn",
     },
     breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 0,
+      350: {
+        slidesPerView: 1,
+        // spaceBetween: 0,
       },
-      768: {
+      576: {
         slidesPerView: 2,
-        // spaceBetween: 40,
+        // spaceBetween: 0,
       },
       992: {
         slidesPerView: 3,

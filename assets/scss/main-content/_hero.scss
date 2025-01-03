@@ -23,7 +23,7 @@
       color: var(--rt-common-white);
       font-size: clamp(53px, 4vw, 80px);
       @media #{$xs} {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 1.3;
       }
       & br {

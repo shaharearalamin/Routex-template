@@ -3,13 +3,13 @@
 .rt-blog {
   &-card-wrapper {
     & br {
-      @media #{$lg,$md} {
+      @media #{$lg,$md,$xs} {
         display: none;
       }
     }
   }
   &-card-text {
-    @media #{$lg} {
+    @media #{$lg,$xs} {
       padding: 18px;
     }
   }
@@ -44,10 +44,20 @@
   &-next-btn {
     top: 13%;
     right: 84px;
+    @media #{$xs} {
+      top: inherit;
+    right: 108px;
+    bottom: -10%;
+    }
   }
   &-prev-btn {
     top: 13%;
     right: 0;
+    @media #{$xs} {
+      top: inherit;
+    right: 20px;
+    bottom: -10%;
+    }
   }
   &-card-heading-text {
     & h5 {
@@ -61,6 +71,24 @@
     & p {
       @media #{$lg} {
         font-size: 14px;
+      }
+    }
+  }
+  &-slider {
+    & a {
+      & img {
+        width: 100%;
+        height: 422px;
+      }
+    }
+    &-icon {
+      top: 30px;
+      right: 30px;
+    }
+    &-content {
+      @media #{$lg,$xs} {
+        margin-right: 18px;
+        margin-left: 18px;
       }
     }
   }
